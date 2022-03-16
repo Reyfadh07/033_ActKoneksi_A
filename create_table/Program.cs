@@ -26,6 +26,7 @@ namespace Create_Tabel
 
             }catch (Exception e)
             {
+                Console.WriteLine("Oops, sepertinya ada yang salah." + e);
 
             }
         }
