@@ -27,7 +27,11 @@ namespace Create_Tabel
             }catch (Exception e)
             {
                 Console.WriteLine("Oops, sepertinya ada yang salah." + e);
+                Console.ReadKey();
 
+            }finally
+            {
+                con.Close();
             }
         }
         static void Main(string[] args)
